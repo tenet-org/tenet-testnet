@@ -1,0 +1,5 @@
+broadcast-mode = "sync"
+chain-id = "tenet_155-1"
+keyring-backend = "os"
+node = "tcp://localhost:26657"
+output = "text"
