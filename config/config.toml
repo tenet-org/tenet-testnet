@@ -95,17 +95,17 @@ proxy_app = "tcp://127.0.0.1:26658"
   tls_cert_file = ""
   tls_key_file = ""
   unsafe = false
-
+  
 [statesync]
-  chunk_fetchers = "4"
-  chunk_request_timeout = "10s"
+  chunk_fetchers = "9"
+  chunk_request_timeout = "60s"
   discovery_time = "15s"
-  enable = false
+  enable = true
   rpc_servers = "https://tendermint-1.rpc.testnet.tenet.org:443,https://tendermint-2.rpc.testnet.tenet.org:443"
   temp_dir = ""
-  trust_hash = "2F37E786E1FC78B43D19FFA47AFCCFA25A63989548ECF5C407D188D2EA9FAF41"
-  trust_height = 550000
-  trust_period = "8760h0m0s"
+  trust_hash = "F91E13A53C289E1F3475CB53275629E78EB7C2495189BA3ED904D7EEA549C845"
+  trust_height = 7575000
+  trust_period = "876000h0m0s"
 
 [storage]
   discard_abci_responses = false
