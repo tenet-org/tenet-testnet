@@ -8,9 +8,9 @@ index-events = []
 inter-block-cache = true
 min-retain-blocks = 0
 minimum-gas-prices = "0atenet"
-pruning = "nothing"
-pruning-interval = "0"
-pruning-keep-recent = "0"
+pruning = "custom"
+pruning-keep-recent = "10000"
+pruning-interval = "1000"
 
 [api]
   address = "tcp://127.0.0.1:1317"
